@@ -1,0 +1,95 @@
+#banner{
+    width:100%;
+    height:250px;
+    background-image:url(../img/a.jpg);
+    background-size: 100%;
+    margin-top:2rem;
+}
+#banner h1{
+    font-size:4em;
+    color:rgba(255, 255, 255, 0.52);
+    font-weight: 900;
+    padding-top:75px;
+    padding-left:200px;
+}
+#section h2{
+    font-size:3em;
+    color:#8A2BE2;
+    margin:2rem 0 0;
+    text-align: center;
+}
+.blog-wall{
+    width:65%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wall-item{
+    background: #EFEFEF;
+    display: flex;
+    width:560px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.wall-item h4{
+    font-size:1.6em;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.wall-item h4:hover{
+    color: #8A2BE2;
+    cursor: pointer;
+}
+.wall-item img{
+    width:250px;
+    height:250px;
+}
+.item-right{
+    padding: 20px 0 0 20px;
+}
+.item-right p{
+    color:#888;
+    margin-bottom:1rem; 
+}
+.item-right p span{
+    color:hotpink;
+}
+.item-right a{
+    color:hotpink;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.item-right a:hover{
+    color: #8A2BE2;
+    margin-left:0.5rem;
+}
+.item-d{
+    width: 112px;
+    height: 210px;
+    background: hotpink;
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    top: 20px;
+    left: -111px;
+    display: none;
+    transition: all 1s;
+}
+.item-d ul{
+    list-style: none;
+}
+.item-d img{
+    width: 40px;
+    height:30px;
+}
+.color-row{
+    margin: auto;
+    background: #ff69b4;
+    width: 100px;
+    height:5px;
+    transition: all 0.5s;
+}
+.color-row:hover{
+    width: 200px;
+}

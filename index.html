@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-1.11.3.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <div id="header">
+        <div class="head">
+            <h1><a href="#">Ringster</a></h1>
+            <ul class="nav">
+                <li><a href="index.html" class="actived">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="codes.html">Short Codes</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="banner">
+                <table></table>
+                <h4>Are You</h4>
+                <h2>Ringster</h2>
+                <h3>Get To Fit</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor vitae pharetra .</p>
+            </div>
+        </div>
+    </div>
+    <div id="section">
+        <div class="title">
+            <h3>WHO WE ARE</h3>
+            <div class="color-row"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing. Praesent sit amet justo diam. Quisque sagittis egestas sem vitae vestibulum. Quisque nec lacus ornare, volutpat arcu in, lacinia dolor.</p>
+        </div>
+        <div class="title_1">
+            <div><img src="img/img1.jpg"/></div>
+            <div>
+                <h4>Why Choose Us</h4>
+                <canvas id="c3" width="600" height="150">
+                </canvas>
+                <script>
+                    var c3=document.getElementById("c3");
+                    var ctx=c3.getContext("2d");
+                    //第一个圆
+                    var str="65%";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="blue";
+                    ctx.fillText(str,65,65);
+                    ctx.beginPath();
+                    ctx.arc(75,60,55,90*Math.PI/180,324*Math.PI/180);
+                    ctx.strokeStyle="blue";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+
+                    ctx.beginPath();
+                    ctx.arc(75,60,55,-36*Math.PI/180,90*Math.PI/180);
+                    ctx.strokeStyle="#ddd";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str1="Sed tincidunt";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="#888";
+                    ctx.fillText(str1,20,150);
+                    //第二个圆
+                    ctx.beginPath();
+                    ctx.arc(205,60,55,90*Math.PI/180,432*Math.PI/180);
+                    ctx.strokeStyle="orange";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str="95%";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="blue";
+                    ctx.fillText(str,195,65);
+
+                    ctx.beginPath();
+                    ctx.arc(205,60,55,72*Math.PI/180,90*Math.PI/180);
+                    ctx.strokeStyle="#ddd";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str1="Lorem sed";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="#888";
+                    ctx.fillText(str1,170,150);
+                    //第三个圆
+                    ctx.beginPath();
+                    ctx.arc(335,60,55,90*Math.PI/180,396*Math.PI/180);
+                    ctx.strokeStyle="pink";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str="85%";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="blue";
+                    ctx.fillText(str,325,65);
+
+                    ctx.beginPath();
+                    ctx.arc(335,60,55,36*Math.PI/180,90*Math.PI/180);
+                    ctx.strokeStyle="#ddd";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str1="Consectetur";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="#888";
+                    ctx.fillText(str1,295,150);
+                    //第四个圆
+                    ctx.beginPath();
+                    ctx.arc(465,60,55,90*Math.PI/180,349*Math.PI/180);
+                    ctx.strokeStyle="black";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str="72%";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="blue";
+                    ctx.fillText(str,455,65);
+
+                    ctx.beginPath();
+                    ctx.arc(465,60,55,-11*Math.PI/180,90*Math.PI/180);
+                    ctx.strokeStyle="#ddd";
+                    ctx.lineWidth=2;
+                    ctx.stroke();
+                    var str1="Velitlorem";
+                    ctx.font = "16px SimHei";
+                    ctx.fillStyle="#888";
+                    ctx.fillText(str1,430,150);
+                </script>
+            </div>
+        </div>
+        <div class="slid">
+            <div class="slid-1">
+                <h3>Adult Beginner</h3>
+                <p>Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc</p>
+            </div>
+            <div class="slid-2">
+                <h3>Advanced Classes</h3>
+                <p>Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Fusce eu semper lacus, eget placerat mauris. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc</p>
+            </div>
+            <div class="slid-3">
+                <h3>Special Classes</h3>
+                <p>Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc</p>
+            </div>
+            <ul>
+                <li id="s1"><a href="#"></a></li>
+                <li id="s2"><a href="#"></a></li>
+                <li id="s3"><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="features">
+            <div></div>
+            <h3>OUR FEATURES</h3>
+            <div class="color-row"></div>
+            <div class="f-list">
+                <div>
+                    <img src="img/home.png" alt="">
+                    <h5>Cum soluta nobis</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+                </div>
+                <div>
+                    <img src="img/list.png" alt="">
+                    <h5>Soluta vum nobis</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+                </div>
+                <div>
+                    <img src="img/tree.png" alt="">
+                    <h5>Nobis cum soluta</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="subscribe">
+            <h4>SIGN UP FOR NEWSLETTER</h4>
+            <p>Contact us Lorem ipsum dolor sit amet consectetur, 
+                adipiscing elit Cras rutrum iaculis enim, non convallis felis mattis convallis.
+            </p>
+            <form action="#">
+                <input type="email" name="email" required placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+            <div class="clearfix"></div>
+        </div>
+        <div class="address">
+            <div>
+                <div class="address-left">
+                    <h3>GET IN TOUCH</h3>
+                    <p>Broome St, NY 10002, Canada.</p>
+                    <p>Telephone : +00 111 222 3333</p>
+                    <p>FAX : +1 888 888 4444</p>
+                    <p>Email : <span>mail@example.com</span></p>
+                    <ul>
+                        <li class="follow">Follow Us:</li>
+                        <li><img src="img/social-icons.png" alt=""></li>
+                        <li><img src="img/social-icons.png" class="img-1" alt=""></li>
+                        <li><img src="img/social-icons.png" class="img-2" alt=""></li>
+                        <li><img src="img/social-icons.png" class="img-3" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="address-left">
+                    <h3>GET IN TOUCH</h3>
+                    <p>Broome St, NY 10002, Canada.</p>
+                    <p>Telephone : +00 111 222 3333</p>
+                    <p>FAX : +1 888 888 4444</p>
+                    <p>Email : <span>mail@example.com</span></p>
+                    <ul>
+                        <li class="follow">Follow Us:</li>
+                        <li><img src="img/social-icons.png" alt=""></li>
+                        <li><img src="img/social-icons.png" class="img-1" alt=""></li>
+                        <li><img src="img/social-icons.png" class="img-2" alt=""></li>
+                        <li><img src="img/social-icons.png" class="img-3" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

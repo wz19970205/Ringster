@@ -1,0 +1,108 @@
+#banner{
+    width:100%;
+    height:250px;
+    background-image:url(../img/a.jpg);
+    background-size: 100%;
+    margin-top:2rem;
+}
+#banner h1{
+    font-size:4em;
+    color:rgba(255, 255, 255, 0.52);
+    font-weight: 900;
+    padding-top:75px;
+    padding-left:200px;
+}
+#section h2{
+    font-size:3em;
+    color:#8A2BE2;
+    margin-top:2rem;
+    text-align: center;
+}
+.color-row{
+    margin: auto;
+    background: #ff69b4;
+    width: 100px;
+    height:5px;
+    transition: all 0.5s;
+}
+.color-row:hover{
+    width: 200px;
+}
+.contact{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contact form{
+    width: 50%;
+    margin:50px 0 50px 0;
+}
+.contact-left{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact input[type="text"] {
+    width: 40%;
+    color: #999;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .7em 1em;
+    margin-bottom: 1.5em;
+    border: solid 1px #999;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+.email{
+    margin-left: 22px;
+}
+.contact textarea{
+    resize: none;
+    width: 100%;
+    background: none;
+    color: #999;
+    font-size: 1em;
+    outline: none;
+    border: solid 1px #999;
+    min-height: 12em;
+    -webkit-appearance: none;
+}
+.contact input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: 0.6em 4em;
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #FF69B4;
+    transition: 0.5s all;
+    border: 2px solid #FF69B4;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+.contact input[type="submit"]:hover{
+    color: #FF69B4;
+    background: #fff;
+}
+.contact-text{
+    background: #D2AEF4;
+    height: 50%;
+    padding: 2em;
+    margin-top: 50px;   
+}
+.contact-text h4 {
+    font-size: 1.8em;
+    color: #000;
+    font-weight: 300;
+}
+.contact-text p{
+    margin-top: 20px;
+    color: #fff;
+}
